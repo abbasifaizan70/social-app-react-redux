@@ -1,46 +1,65 @@
-# Redux Essentials Tutorial Example
+# Burger Builder App
 
-This project contains the setup and code from the "Redux Essentials" tutorial in the Redux docs ( https://redux.js.org/tutorials/essentials/part-1-overview-concepts ).
+This Social Application allows users to create posts with an author, title, and content. It is built using React and Redux, providing a seamless and interactive platform for users to share their thoughts and engage with others.
 
-The `master` branch has a single commit that already has the initial project configuration in place. You can use this to follow along with the instructions from the tutorial.
 
-The `tutorial-steps` branch has the actual code commits from the tutorial. You can look at these to see how the official tutorial actually implements each piece of functionality along the way.
+## Installation
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
+To run the Tic Tac Toe game locally, follow these steps:
 
-> **Note**: If you are using Node 17, this project may not start correctly due to a known issue with Webpack and Node's OpenSSL changes, which causes an error message containing `ERR_OSSL_EVP_UNSUPPORTED`.  
-> You can work around this by setting a `NODE_OPTIONS=--openssl-legacy-provider` environment variable before starting the dev server.
-> Details: https://github.com/webpack/webpack/issues/14532#issuecomment-947012063
+1. Clone the repository:
 
-## Available Scripts
+```
+  git clone https://github.com/abbasifaizan70/social-app-react-redux
+```
 
-In the project directory, you can run:
+2. Navigate to the project directory:
 
-### `yarn start`
+```
+  cd social-app-react-redux
+```
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+3. Install the dependencies:
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+```
+  npm install
+```
 
-### `yarn test`
+4. Start the development server:
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```
+  npm start
+```
 
-### `yarn build`
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+5. Open [http://localhost:3000](http://localhost:3000) to view the game in your browser.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+## Screenshots
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<img width="1440" alt="Screenshot 2023-10-26 at 9 03 37 PM" src="https://github.com/abbasifaizan70/social-app-react-redux/assets/58352279/69f3fad8-772c-4ee7-b9ca-732550d8b725">
 
-## Learn More
+<img width="749" alt="Screenshot 2023-10-26 at 9 03 58 PM" src="https://github.com/abbasifaizan70/social-app-react-redux/assets/58352279/6d9977bb-5e19-4aa6-ae5e-84b5241b6dd5">
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## App Features
+
+- User authentication and authorization functionalities.
+- Post-creation, editing, and deletion capabilities.
+- Real-time rendering of posts with author information, titles, and content.
+- Redux-based state management for efficient data handling.
+
+
+## Technologies Used
+
+- React
+- Redux
+- HTML
+- CSS
+
+## Contributing
+
+Contributions are welcome! Please feel free to open an issue or submit a pull request for any improvements or new features.
+
+## License
+
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
